@@ -7,6 +7,9 @@
     :messages-loaded="messagesLoaded"
     @fetch-messages="fetchMessages"
     @send-message="sendMessage"
+    theme="light"
+    :single-room="false"
+    :show-footer="true"
   />
 </template>
 
@@ -242,8 +245,20 @@ export default {
       currentUserId: "user2",
     };
   },
-  mounted() {},
+  mounted() {
+    this.getRooms()
+  },
   methods: {
+    getRooms() {
+      this.$axios({
+        method: 'get',
+        url: '/xgChatServer/api/chat/rooms'
+      }).then(res => {
+        if(res.code === 200) {
+          this.rooms = res.data;
+        }
+      })
+    },
     fetchMessages({ room, options }) {
       options;
       this.messagesLoaded = false;

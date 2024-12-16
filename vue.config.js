@@ -17,5 +17,13 @@ module.exports = defineConfig({
           }
         }
       }))
+  },
+  devServer: {
+    proxy: {
+      "/xgChatServer": {
+        target: 'http://localhost:8989', // 本地网关
+        secure: false
+      }
+    }
   }
 })
