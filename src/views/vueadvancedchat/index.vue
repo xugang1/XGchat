@@ -105,133 +105,133 @@ const room2 = {
   ],
   typingUsers: ["user2"],
 };
-const message1 = {
-  _id: 7890,
-  indexId: 120921,
-  content: "Message 1",
-  senderId: "user1",
-  username: "用户1",
-  avatar: icons[1],
-  date: "13 November",
-  timestamp: "10:20",
-  system: false,
-  saved: true,
-  distributed: true,
-  seen: true,
-  deleted: false,
-  failure: true,
-  disableActions: false,
-  disableReactions: false,
-  files: [
-    {
-      name: "My File",
-      size: 67351,
-      type: "png",
-      audio: true,
-      duration: 14.4,
-      url: icons[4],
-      preview: icons[4],
-      // progress: 88,
-    },
-  ],
-  reactions: {
-    "😁": [
-      "hahha", // USER_ID
-      4321,
-    ],
-    "🥰": [1234],
-  },
-  replyMessage: {
-    content: "Reply Message",
-    senderId: 4321,
-    files: [
-      {
-        name: "My Replied File",
-        size: 67351,
-        type: "png",
-        audio: true,
-        duration: 14.4,
-        url: icons[5],
-        preview: icons[5],
-      },
-    ],
-  },
-};
-const message2 = {
-  _id: 7890,
-  indexId: 120922,
-  content: "Message 2",
-  senderId: "user2",
-  username: "用户2",
-  avatar: icons[2],
-  date: "13 November",
-  timestamp: "10:20",
-  system: false,
-  saved: true,
-  distributed: true,
-  seen: true,
-  deleted: false,
-  failure: false,
-  disableActions: false,
-  disableReactions: false,
-  files: [
-    {
-      name: "My File",
-      size: 67351,
-      type: "png",
-      audio: true,
-      duration: 14.4,
-      url: icons[4],
-      preview: icons[4],
-      // progress: 88,
-    },
-  ],
-  reactions: {
-    "😁": [
-      1234, // USER_ID
-      4321,
-    ],
-    "🥰": [1234],
-  },
-  replyMessage: {
-    content: "Reply Message",
-    senderId: 4321,
-    files: [
-      {
-        name: "My Replied File",
-        size: 67351,
-        type: "png",
-        audio: true,
-        duration: 14.4,
-        url: icons[5],
-        preview: icons[5],
-      },
-    ],
-  },
-};
-const message3 = {
-  _id: 7890,
-  indexId: 120923,
-  content: "Message 3",
-  senderId: "user3",
-  username: "用户3",
-  avatar: icons[3],
-  date: "13 November",
-  timestamp: "10:20",
-  system: false,
-  saved: true,
-  distributed: true,
-  seen: true,
-  deleted: false,
-  failure: true,
-  disableActions: false,
-  disableReactions: false,
-};
+// const message1 = {
+//   _id: 7890,
+//   indexId: 120921,
+//   content: "Message 1",
+//   senderId: "user1",
+//   username: "用户1",
+//   avatar: icons[1],
+//   date: "13 November",
+//   timestamp: "10:20",
+//   system: false,
+//   saved: true,
+//   distributed: true,
+//   seen: true,
+//   deleted: false,
+//   failure: true,
+//   disableActions: false,
+//   disableReactions: false,
+//   files: [
+//     {
+//       name: "My File",
+//       size: 67351,
+//       type: "png",
+//       audio: true,
+//       duration: 14.4,
+//       url: icons[4],
+//       preview: icons[4],
+//       // progress: 88,
+//     },
+//   ],
+//   reactions: {
+//     "😁": [
+//       "hahha", // USER_ID
+//       4321,
+//     ],
+//     "🥰": [1234],
+//   },
+//   replyMessage: {
+//     content: "Reply Message",
+//     senderId: 4321,
+//     files: [
+//       {
+//         name: "My Replied File",
+//         size: 67351,
+//         type: "png",
+//         audio: true,
+//         duration: 14.4,
+//         url: icons[5],
+//         preview: icons[5],
+//       },
+//     ],
+//   },
+// };
+// const message2 = {
+//   _id: 7890,
+//   indexId: 120922,
+//   content: "Message 2",
+//   senderId: "user2",
+//   username: "用户2",
+//   avatar: icons[2],
+//   date: "13 November",
+//   timestamp: "10:20",
+//   system: false,
+//   saved: true,
+//   distributed: true,
+//   seen: true,
+//   deleted: false,
+//   failure: false,
+//   disableActions: false,
+//   disableReactions: false,
+//   files: [
+//     {
+//       name: "My File",
+//       size: 67351,
+//       type: "png",
+//       audio: true,
+//       duration: 14.4,
+//       url: icons[4],
+//       preview: icons[4],
+//       // progress: 88,
+//     },
+//   ],
+//   reactions: {
+//     "😁": [
+//       1234, // USER_ID
+//       4321,
+//     ],
+//     "🥰": [1234],
+//   },
+//   replyMessage: {
+//     content: "Reply Message",
+//     senderId: 4321,
+//     files: [
+//       {
+//         name: "My Replied File",
+//         size: 67351,
+//         type: "png",
+//         audio: true,
+//         duration: 14.4,
+//         url: icons[5],
+//         preview: icons[5],
+//       },
+//     ],
+//   },
+// };
+// const message3 = {
+//   _id: 7890,
+//   indexId: 120923,
+//   content: "Message 3",
+//   senderId: "user3",
+//   username: "用户3",
+//   avatar: icons[3],
+//   date: "13 November",
+//   timestamp: "10:20",
+//   system: false,
+//   saved: true,
+//   distributed: true,
+//   seen: true,
+//   deleted: false,
+//   failure: true,
+//   disableActions: false,
+//   disableReactions: false,
+// };
 
-const roomMsgMap = {
-  room1: [message1, message2],
-  room2: [message3, message2],
-};
+// const roomMsgMap = {
+//   room1: [message1, message2],
+//   room2: [message3, message2],
+// };
 export default {
   name: "vue-advanced-chat",
   components: {
@@ -242,7 +242,7 @@ export default {
       messagesLoaded: false,
       rooms: [room1, room2],
       messages: [],
-      currentUserId: "user2",
+      currentUserId: "00001",
     };
   },
   mounted() {
@@ -252,7 +252,7 @@ export default {
     getRooms() {
       this.$axios({
         method: 'get',
-        url: '/xgChatServer/api/chat/rooms'
+        url: '/xgChatServer/api/rooms'
       }).then(res => {
         if(res.code === 200) {
           this.rooms = res.data;
@@ -263,10 +263,18 @@ export default {
       options;
       this.messagesLoaded = false;
       // use timeout to imitate async server fetched data
-      setTimeout(() => {
-        this.messages = roomMsgMap[room.roomId];
-        this.messagesLoaded = true;
-      });
+      this.$axios({
+        method: 'get',
+        url: '/xgChatServer/api/messages',
+        params: {
+          roomId: room.roomId
+        }
+      }).then(res => {
+        if(res.code === 200) {
+          this.messages = res.data;
+          this.messagesLoaded = true;
+        }
+      })
     },
     sendMessage({ roomId, content, files, replyMessage, usersTag }) {
       roomId, content, files, replyMessage, usersTag;
